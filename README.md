@@ -77,7 +77,7 @@ This dataset was taken by Kaggle at the following address: https://www.kaggle.co
 Correlation matrix
 
 ## Data Preprocessing
-Since I'm using a structured dataset it requires a feature wise normalization. To perform such action i used min max scaler.
+Since I'm using a structured dataset it requires a feature wise normalization. To perform such action i used the StandardScaler.
 
 ## Model
 Since the amount of data is too low for common deep learning models, I decided to switch to a more traditional machine learning tool that can handle smaller datasets like gradient boosting. 

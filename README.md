@@ -73,8 +73,7 @@ The dataset informations extracted by pandas are
         dtypes: float64(1), int64(13)
         memory usage: 33.3 KB
 
-This dataset was taken by Kaggle at the following address: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
-Correlation matrix
+This dataset was taken by Kaggle at the following address: <a href="https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset">https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset</a>
 
 ## Data Preprocessing
 Since I'm using a structured dataset it requires a feature wise normalization. To perform such action i used the StandardScaler.
@@ -82,4 +81,13 @@ Since I'm using a structured dataset it requires a feature wise normalization. T
 ## Model
 Since the amount of data is too low for common deep learning models, I decided to switch to a more traditional machine learning tool that can handle smaller datasets like gradient boosting. 
 
+<img title="Result ROC AUC" alt="Result ROC AUC" src="./images/model.png">
+
 # Results
+
+<img style="width:400px;" title="Result ROC AUC" alt="Result ROC AUC" src="./images/confusion_matrix.png">
+<br/>
+ROC AUC score is <br/>
+0.8735909822866345
+
+<img style="width:400px;" title="Result ROC AUC" alt="Result ROC AUC" src="./images/result.png">

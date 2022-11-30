@@ -1,4 +1,4 @@
-# Heart attack diagnosis: An easy task with gradient boosting
+# Heart attack diagnosis
 
 # Abstract
 In the medical health panorama is known the importance of prevention.

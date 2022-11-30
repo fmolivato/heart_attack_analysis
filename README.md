@@ -112,7 +112,7 @@ The ROC AUC curve is a performance metric for problems of classification.
 
 ROC is a probability curve and AUC is a measure of separability. It tells how much the model is capable of udestand which sample belongs to which class.
 
-ROC AUC score is <br/>
+__ROC AUC__ score is <br/>
 0.8735909822866345
 
 <img style="width:400px;" title="Result ROC AUC" alt="Result ROC AUC" src="./images/result.png">

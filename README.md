@@ -81,12 +81,37 @@ Since I'm using a structured dataset it requires a feature wise normalization. T
 ## Model
 Since the amount of data is too low for common deep learning models, I decided to switch to a more traditional machine learning tool that can handle smaller datasets like gradient boosting. 
 
+It is an evolution of classical boosting, that is a method to transform weak learners into strong ones.
+
+However they are different, indeed the boosting model determines the faults by utilizing weighted data points; instead the gradient boosting is taking advantage of gradients in loss functions.
+
 <img title="Result ROC AUC" alt="Result ROC AUC" src="./images/model.png">
 
 # Results
+The current model performace are:
 
+The True Positive rate / Recall per class is:  [0.76 0.76]<br/>
+The Precision per class is:  [0.79 0.73]<br/>
+The False Alarm rate per class is:  [0.24 0.24]<br/>
+The Miss Rate rate per class is:  [0.24 0.24]<br/>
+The Classification error of each class is [0.24 0.24]<br/>
+The Accuracy of each class is [0.76 0.76]<br/>
+
+The average Recall is:  0.7600644122383253<br/>
+The average Precision is:  0.7588141025641025<br/>
+The average False Alarm is:  0.23993558776167473<br/>
+The average Miss Rate rate is:  0.23993558776167473<br/>
+The average Classification error is 0.24<br/>
+The average Accuracy is 0.76<br/>
+<br/>
+Here is the summary as a confusion matrix:<br/>
 <img style="width:400px;" title="Result ROC AUC" alt="Result ROC AUC" src="./images/confusion_matrix.png">
 <br/>
+<br/>
+The ROC AUC curve is a performance metric for problems of classification.
+
+ROC is a probability curve and AUC is a measure of separability. It tells how much the model is capable of udestand which sample belongs to which class.
+
 ROC AUC score is <br/>
 0.8735909822866345
 
